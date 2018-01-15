@@ -18,8 +18,8 @@ app.get('/', function(req, res) {
 	res.send("Hi I am an ANGERY chatbot") 
 })
 
-let token = "EAACBwhJzaosBADZCcOuviGj5iMf0Nj1ejqfUrNZCKONUu6jM50OM1uKvo6A6hgwqLIU4VCXXgGfCmSKMZAJYbZC6bOfCNRbZASogE22Ox6dlU6Jt4AZCGhi2E0IUdatE5fu0GcLYbP9BCevfRdfaLvIZC6sj02CRALSPbHnSIEQpgZDZD"
-
+//Confidential, Generate a token on with Facebook apps
+//let token = ""
 //Facebook
 
 app.get('/webhook/', function(req, res) {
